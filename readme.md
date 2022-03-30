@@ -1,3 +1,9 @@
+# Deploy:
+application is deployed in the link below:
+
+    https://addressbook-hakn.herokuapp.com
+
+# Description:
 Design & Implement a RESTful API for an AddressBook application. The AddressBook app enables users to register and manage their own contact list by adding contacts to Firebase.
 API should serve all kinds of clients (which you do not have to implement)—both mobile apps and websites using a RESTful API. The AddressBook API backend should use two different storage services to maintain the data. User accounts are stored in either an SQL database or a NoSQL database of your choice, whereas contacts are stored in Firebase.
 
