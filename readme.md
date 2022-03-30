@@ -1,6 +1,5 @@
 # Deploy:
 application is deployed in the link below:
-
     https://addressbook-hakn.herokuapp.com
 
 # Description:
