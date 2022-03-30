@@ -1,0 +1,20 @@
+<%-  include("partials/header"); -%>
+
+    <main class="form-signin">
+        <form action="/login" method="post">
+            <h1 class="h3 mb-3 fw-normal">Login</h1>
+            <div class="form-floating">
+                <label for="floatingEmail">Email</label>
+                <input type="email" class="form-control bottom" name="email" id="floatingEmail" placeholder="Email@example.com" required>
+            </div>
+            <div class="form-floating">
+                <label for="floatingPassword">Password</label>
+                <input type="password" class="form-control bottom" name="password" id="floatingPassword" placeholder="Password" required>
+            </div>
+            <div class="form-floating">
+                <button class="w-100 btn btn-lg btn-primary" name="button" type="submit">Log In</button>
+            </div>
+
+        </form>
+    </main>
+    <%-  include("partials/footer"); -%>
